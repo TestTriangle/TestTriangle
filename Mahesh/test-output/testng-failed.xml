@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Hiber.Before">
+        <methods>
+          <include name="AfterSuite"/>
+          <include name="BeforeSuite"/>
+        </methods>
+      </class> <!-- Hiber.Before -->
+      <class name="Hiber.Maheshapp">
+        <methods>
+          <include name="login"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="ticket"/>
+        </methods>
+      </class> <!-- Hiber.Maheshapp -->
+      <class name="Hiber.Discover">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="discover"/>
+        </methods>
+      </class> <!-- Hiber.Discover -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

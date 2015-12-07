@@ -1,0 +1,35 @@
+
+
+<suite name="TestSuite">
+    
+<test name="Test" preserve-order="true">
+    
+ <packages>
+    
+ <package name="Hiber"/>
+    
+</packages> 
+
+ <!--  
+ 
+ here we cannot run with the class because we are using @ beforsuite and @aftersuite annotations
+      
+  <classes>
+     
+     <class name="Hiber.Maheshapp">
+         
+         <methods>
+             
+         <include name="login"/>
+         
+         <include name="ticket"/>
+         
+         </methods>
+         
+     </class>
+     
+ </classes> -->
+    
+  </test> 
+  
+</suite> 
